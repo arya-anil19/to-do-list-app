@@ -1,0 +1,76 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    
+    background: linear-gradient(to right, rgba(34, 34, 34, 0.952) 0%, rgba(0, 0, 0, 0.973) 100%);
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    }
+    
+    .container {
+    
+    max-width: 600px;
+    
+    margin: 0 auto;
+    
+    padding: 20px;
+    
+    background: linear-gradient(to right,   rgba(194, 194, 194, 0.952) ,rgba(24, 24, 24, 0.973)
+100%);
+    
+    }
+    
+    h1 {
+    text-decoration: aliceblue;
+    text-align: center;
+    
+    }
+    
+    .task-input {
+    
+    width: 95%;
+    
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    .task-list {
+    
+    list-style-type: none;
+    
+    padding: 0;
+    
+    }
+    
+    .task-item {
+    
+    display: flex;
+    
+    align-items: center;
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    .task-item input[type="checkbox"] {
+    
+    margin-right: 10px;
+    
+    }
+    
+    .task-item span {
+    
+    flex-grow: 1;
+    
+    }
+    
+    .task-item button {
+    
+    margin-left: 10px;
+    
+    }
